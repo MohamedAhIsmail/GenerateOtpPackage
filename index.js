@@ -11,4 +11,8 @@ export const generateOtp = function (length = 6, options = { chars: false }) {
   return otp;
 };
 
-console.log(generateOtp(5, { chars: true }));
+// to test chars letters otp
+// console.log(generateOtp(5, { chars: true }));
+
+// to test digits otp
+// console.log(generateOtp(5));
